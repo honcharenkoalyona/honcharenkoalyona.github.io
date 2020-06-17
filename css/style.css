@@ -1,0 +1,96 @@
+html {
+    scroll-behavior: smooth; 
+}
+.navbar {
+    background-color: #37a798;
+}
+
+.login-btn {
+    background-color: #dcdcdc;
+}
+
+.carousel-item {
+    display: block;
+    height: 800px;
+}
+.news_bg {
+    backgroun: url(.../img/prady-d-ycSjiBCtPJI-unsplash.jpg);
+    display: block;
+}
+.img_news {
+    width: 80%;
+}
+.news {
+    margin-top: 30px;
+}
+.title_block {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+        float: left;
+        width: 25%;
+        max-width: 100%;
+    }
+}
+
+.carousel-multi-item-2 .card img {
+    border-radius: 2px;
+}
+
+
+#demo {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.green {
+    background-color: #6fb936;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.page-top {
+    margin-top: 85px;
+}
+
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+
+.transition {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
+}
+footer {
+    background-color: #37a798;
+    color:aliceblue;
+}
